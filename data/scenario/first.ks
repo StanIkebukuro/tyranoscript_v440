@@ -1,6 +1,8 @@
 ;チュートリアル用スクリプトファイル
 *start
 
+[position layer=message0 width=800 height=300 top=380 left=70 ]
+[position layer=message0 page=fore frame="frame.png" margint="65" marginl="50" marginr="70" marginb="60"]
 
 メッセージウィンドウの高さを変更します[l][cm]
 [position height=160 top=430]
@@ -11,21 +13,3 @@
 [r]3
 [r]4
 [r]5
-[wait time=200]
-
-ここまで横書きで表示されています。[l][r]
-縦書きに変更します[l][cm]
-[position vertical=true]
-ここは縦書きで表示されていますね？[l][r]
-横書きに戻します[l][cm]
-[position vertical=false]
-[cm]
-横書きで表示されていますね？
-
-吾輩わがはいは猫である。名前はまだ無い。[l][r]
-
-どこで生れたかとんと見当けんとうがつかぬ。[l][cm]
-
-何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。[l]
-
-吾輩はここで始めて人間というものを見た。[l][r]
